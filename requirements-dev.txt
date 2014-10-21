@@ -1,0 +1,4 @@
+nose
+django-nose
+coverage
+flake8

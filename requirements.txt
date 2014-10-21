@@ -1,0 +1,9 @@
+Django<1.7
+South
+gunicorn
+raven
+dj-database-url
+psycopg2
+django-debug-toolbar
+#django-service-rating-store
+git+https://github.com/praekelt/django-service-rating-store.git@develop
