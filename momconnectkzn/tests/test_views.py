@@ -1,7 +1,6 @@
 """ Tests for top-level MomConnect KZN views that aren't test elsewhere. """
 
 from django.contrib.auth import get_user_model
-from django.test import TestCase
 from tastypie.test import ResourceTestCase
 from tastypie.models import ApiKey
 
