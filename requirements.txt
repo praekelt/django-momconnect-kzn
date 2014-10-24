@@ -4,5 +4,4 @@ gunicorn
 raven
 dj-database-url
 psycopg2
-django-debug-toolbar
 django-service-rating-store

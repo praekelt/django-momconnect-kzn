@@ -130,7 +130,6 @@ INSTALLED_APPS = (
     'gunicorn',
     'django_nose',
     'raven.contrib.django.raven_compat',
-    'debug_toolbar',
     'servicerating',
     'tastypie',  # needed by servicerating
 )
@@ -181,10 +180,6 @@ LOGGING = {
 # if DEBUG:
 #     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-# Django debug toolbar
-DEBUG_TOOLBAR_CONFIG = {
-    'ENABLE_STACKTRACES': True,
-}
 
 # South configuration variables
 TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
