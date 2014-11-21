@@ -4,4 +4,4 @@ gunicorn
 raven
 dj-database-url
 psycopg2
-django-service-rating-store==0.3.0
+django-service-rating-store==0.3.0a
